@@ -22,6 +22,9 @@ img{
     border-style: solid;
     border-width: 3px;
     border-color: white;
+    position: absolute;
+    right: -75px;
+    top: -75px;  
 }
 .karta{
     background-color: white;
@@ -32,6 +35,8 @@ img{
     padding:30px;
     border-radius: 10px;
     font-size: 18px;
+    text-align: justify;
+    position:relative;
 }
 h1{
     color: #d63031;
@@ -49,9 +54,15 @@ h1{
     background-color: #1da1f2;
     margin: 30px auto 5px auto;
 }
+.twitter:hover{
+    background-color:#0b7bc1
+}
 .fb{
     background-color: #3b5998;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+}
+.fb:hover{
+    background-color:#2b406e
 }
