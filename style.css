@@ -15,7 +15,9 @@ tlačítko Facebook aktivní: #2b406e
 */
 body{
     background-color: #b2bec3;
+    font-family: Nunito;
 }
+
 img{
     width: 150px;
     border-radius: 50%;
@@ -26,6 +28,7 @@ img{
     right: -75px;
     top: -75px;  
 }
+
 .karta{
     background-color: white;
     width: 550px;
@@ -37,7 +40,9 @@ img{
     font-size: 18px;
     text-align: justify;
     position:relative;
+    box-shadow: 5px 5px 5px rgb(148, 144, 144);
 }
+
 h1{
     color: #d63031;
     font-size: 36px;
@@ -50,15 +55,21 @@ h1{
     color: white;
     font-variant-caps: all-petite-caps;
     border-radius: 5px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
+
 .twitter{
     background-color: #1da1f2;
     margin: 30px auto 5px auto;
     margin-top: 30px;
 }
+
 .twitter:hover{
     background-color: #0b7bc1;
 }
+
 .fb{
     background-color: #3b5998;
     margin-left: auto;
@@ -66,6 +77,7 @@ h1{
     margin-bottom: 30px;
     margin-top: 5px;
 }
+
 .fb:hover{
     background-color:#2b406e;
 }
